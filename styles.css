@@ -35,6 +35,19 @@ body {
   height: auto;
 }
 
+.product-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.product-card {
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
 footer {
   background-color: #343a40;
   color: white;
